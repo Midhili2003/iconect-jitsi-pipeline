@@ -1,0 +1,12 @@
+[Unit]
+Description=MCI sender network namespace (mcisend + veth-mci0/1)
+After=network.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/sbin/mci-netns.sh up
+ExecStop=/usr/local/sbin/mci-netns.sh down
+
+[Install]
+WantedBy=multi-user.target

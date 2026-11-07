@@ -1,0 +1,46 @@
+Recorded: 2026-10-08T21:50:05Z
+== System
+7.0.0-38-generic
+PRETTY_NAME="Ubuntu 26.04.1 LTS"
+== Jitsi
+coturn 4.6.1-2build2
+jicofo 1.0-1205-1
+jitsi-meet 2.0.11248-1
+jitsi-videobridge2 2.3-318-gbf271b11f-1
+prosody 13.0.4-2
+== Tools
+tcpdump version 4.99.6
+ffmpeg version 8.0.1-3ubuntu2 Copyright (c) 2000-2025 the FFmpeg developers
+pulseaudio 17.0
+eSpeak NG text-to-speech: 1.52.0  Data at: /usr/lib/x86_64-linux-gnu/espeak-ng-data
+== Browser
+Google Chrome for Testing 153.0.8010.12 
+== Python
+Python 3.14.4
+cffi==2.1.1
+contourpy==1.4.0
+cycler==0.12.1
+dpkt==1.9.8
+fonttools==4.66.1
+greenlet==3.5.6
+kiwisolver==1.5.1
+matplotlib==3.11.2
+numpy==2.5.3
+packaging==26.3
+pillow==12.3.0
+playwright==1.63.0
+pycparser==3.0
+pyee==13.0.1
+pyparsing==3.3.3
+python-dateutil==2.9.0.post0
+six==1.17.0
+soundfile==0.14.0
+typing_extensions==4.16.0
+== Our scripts (sha256)
+46e1a99152aea1bff6097bda99cc0a9b8a933b9cc4666647068f8018f76bcd55  /opt/iconect/extract_pauses.py
+958703d5b9b97c1663fcaad398a089e38e15039603876b595605243d802d076b  /opt/iconect/inspect_run.py
+cbff543fc77ceddcd2522156626a4333b49f1739633cbe60efd3a90ae595ceb5  /opt/iconect/make_test_clips.py
+285a9bae3a43ca006dd714cff8c32abe7e33d663ed45a2bd2b59605617d7ca75  /opt/iconect/run_batch.py
+fd534d23cf63147ac82ddae6e0db797e14042ab2d754c45d987352b4f7bf92fb  /opt/iconect/run_clip.py
+6be82e9c55809637b9ec8add469ae020e7fb962a6356c69074e10526c0f462b6  /opt/iconect/validate.py
+7c5aafe7f872d5c6492b17898496db6cebf63970c69d38474a7c3cb07ab75ba6  /opt/iconect/mci_check.sh

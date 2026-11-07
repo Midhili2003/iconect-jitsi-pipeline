@@ -1,0 +1,13 @@
+# Python cache and old backup copies
+__pycache__/
+*.pyc
+*.bak-*
+
+# Research data must never go to GitHub
+*.pcap
+*.wav
+*.m4a
+*.mp3
+*.mp4
+runs/
+batches/
